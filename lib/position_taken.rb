@@ -6,5 +6,6 @@ def position_taken?(board, index)
     when pos == " " || pos == "" || pos == nil
         return false
     when pos == "X" || pos == "O"
-        return true        
+        return true  
+    end
 end
