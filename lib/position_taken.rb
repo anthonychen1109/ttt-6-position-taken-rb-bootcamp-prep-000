@@ -5,7 +5,7 @@ def position_taken?(board, index)
     return false
   elsif board[index] == ""
     return false
-  elseif board[index] == nil
+  elsif board[index] == nil
     return false
   elsif board[index] == "X"
     return false
